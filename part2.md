@@ -1,0 +1,9 @@
+1. It prints the index number of the price, which is 3. Although the index starts from 0, and the last index of the prices should be 2, the index was added with one and then leave the for-loop. We can access the index i outside the loop because it is declared as "var".
+2. It prints the discountedprice of the last price, which used to be 300, but becomes 150 after the discount. We can access the discountedprice outside the loop because it is declared as "var".
+3. It prints the finalprice of the last price, which used to be 300, but becomes 150 after the discount. We can access the finalprice outside the loop because it is declared as "var".
+4. it returns nothing, because discounted  need to be returned to the function caller. Instead of calling the function directly, we need to use console.log(function) to call the function and then we can get the returned value.
+5. It gives me an error. Although the index i was updated ,it still finally declared as "let", which does not allow us to access it outside the block it declared.
+6. It gives me an error. Although discountedprice was updated, it still finally declared as "let", which does not allow us to access it outside the block it declared.
+7. It prints the finalprice of the last price, 150, which used to be 300, but becomes 150 after the discount. Although finalprice was initially delcared as "let", it was not declared as "let" after being reassigned. 
+8. it returns nothing, because discounted  need to be returned to the function caller. Instead of calling the function directly, we need to use console.log(function) to call the function and then we can get the returned value.
+9. It gives me an error, because result is declared as"const", like "final" keyword in Java, which does not allow us to reassgin it.
