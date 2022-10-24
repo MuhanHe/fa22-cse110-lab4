@@ -46,4 +46,8 @@
         Boolean() takes 0 as false and all positive numbers as true, so it is true when compared with true.
 15. '==' can do the type conversion of the operands before comparison, but '===' compares the values as well as the data types of the operands.
 17. The result showing nothing. We have to use console.log(function) to print out the result. As we call modifyArray function, we take in an array [1,2,3], and while we access each number in the array in the for-loop, we will call the callback function dosomething and this function will double the value of the specific number we just accessed. Then the modified value will be returned and pushed into the new array created in the modifyArray function. Finally, the new array pushed all doubled values in the original array, and be returned.
-18. 
+19. 1
+    4
+    3
+    2
+    (1,4,and 3 were printed at the same time, and then 2 was printed after one second)
