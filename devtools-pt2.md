@@ -1,0 +1,1 @@
+1. The bug is the data tyle of num1 and num2 is string, so adding them together will result in a string, rather than a number.
